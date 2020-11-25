@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" crossorigin="anonymous" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Game Page</title>
 </head>
 <body>
 <nav>
+
 		    <ul>
 		        <li><a href="easy.html">Easy Game</a></li>
 		        <li><a href="medium.html">Medium Game</a></li>
@@ -20,22 +21,23 @@
 		</nav>
     <header>Multiplication Game</header>
 
+<!--Bootstrap buttons-->
     <form>
-        <div class="games box-sizing">
-            <div class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" id="customControlValidation1" name="radio-stacked" required>
-                <label class="custom-control-label" for="customControlValidation2">Easy</label>
+        <div class="games border-box">
+            <div class="custom-control custom-radio mb-4">
+                <input type="radio" class="custom-control-input" id="easygame" name="game" onclick="radioClick(1)" value="[object Object]" required>
+                <label class="custom-control-label" for="customControlValidation1">Easy Game</label>
             </div>
-            <div class="custom-control custom-radio">
-                <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-                <label class="custom-control-label" for="customControlValidation2">Medium</label>
+            <div class="custom-control custom-radio mb-4">
+                <input type="radio" class="custom-control-input" id="mediumgame" name="game" onclick="radioClick(2)" value="[object Object]" required>
+                <label class="custom-control-label" for="customControlValidation2">Medium Game</label>
             </div>
-            <div class="custom-control custom-radio mb-3">
-                <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-                <label class="custom-control-label" for="customControlValidation3">Hard</label>
+            <div class="custom-control custom-radio mb-4">
+                <input type="radio" class="custom-control-input" id="hardgame" name="game" onclick="radioClick(3)" value="[object Object]" required>
+                <label class="custom-control-label" for="customControlValidation3">Hard Game</label>
                 <div class="invalid-feedback">More example invalid feedback text</div>
             </div>
-            <button class="btn btn-primary" type="button">Play</button>
+            <button class="btn btn-primary" type="button" onclick="startGame()">Play</button>
         </div>
     </form>
     

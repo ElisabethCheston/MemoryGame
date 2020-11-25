@@ -1,0 +1,51 @@
+body {
+    background-color: #dddddd
+}
+.container-fluid {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.flex-row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #aa66aa;
+}
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px lawngreen;
+    box-sizing: border-box;
+}
+
+#10x4 {
+
+}
+    5x4
+    3x2
+    2x2
+    2x4
+    1x2
+.40 {
+
+}    
+/*
+.border-box {
+    box-sizing: border-box;
+    width: 70px;
+    height: 100px;
+    padding: 5px;
+    color: lightgray
+}
+.body {
+    height: 550px;
+    width: 100%;
+    background-color: silver;
+}
+.btn .btn-primary {
+    color: red
+}
+*/
