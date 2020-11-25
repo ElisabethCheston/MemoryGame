@@ -1,5 +1,15 @@
-.background {
+.games {
+    box-sizing: border-box;
+    width: 70px;
+    height: 100px;
+    padding: 5px;
+    color: lightgray
+}
+.body {
     height: 550px;
     width: 100%;
     background-color: silver;
+}
+.btn .btn-primary {
+    color: red
 }
