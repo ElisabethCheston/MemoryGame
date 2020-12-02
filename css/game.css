@@ -1,6 +1,16 @@
 
+body {
+    background: rgb(253, 251, 251);
+}
 .brick {
     width: 120px;
     height: 120px;
-    background: lightcyan;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brick img {
+    width: 100px;
+    height: 100px;
 }
